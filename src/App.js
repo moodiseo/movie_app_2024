@@ -27,8 +27,8 @@ class App extends React.Component {
     return (
       <section className="container">
         {isLoading ? (
-          <div id="Loader">
-            <span className="Loader__text">Loading...</span>
+          <div className="loader">
+            <span className="loader__text">Loading...</span>
           </div>
         ) : (
           <div className="movies">
